@@ -20,7 +20,7 @@ Part one I am going to make a window, a surface to fill it and set a delay to cl
         }
         else{
           SDL_Surface* sur = SDL_GetWindowSurface(win);
-          SDL_FillRect(sur, NULL, SDL_MapRGB(sur->format, 255, 0, 255);
+          SDL_FillRect(sur, NULL, SDL_MapRGB(sur->format, 255, 0, 255));
           SDL_UpdateWindowSurface(win);
           
           SDL_Delay(5000);
